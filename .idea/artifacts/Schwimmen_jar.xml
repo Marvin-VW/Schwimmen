@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Schwimmen:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Schwimmen_jar</output-path>
+    <root id="archive" name="Schwimmen.jar">
+      <element id="module-output" name="Schwimmen" />
+    </root>
+  </artifact>
+</component>

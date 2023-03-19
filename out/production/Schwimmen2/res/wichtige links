@@ -1,0 +1,38 @@
+https://www.youtube.com/watch?v=JGdWqdtaOgw
+
+https://www.storyblocks.com/audio/search/card+sound+effect
+
+// spieler  k1  k2  k3
+// bot1     00  01  02
+// bot2     10  11  12
+// bot3     20  21  22
+// spieler  30  31  32
+// mitte    40  41  42
+
+
+
+// 0 : oben 1 unten 1
+
+// 1 : oben 1 unten 2
+
+// 2 : oben 1 unten 3
+
+
+// 3 : oben 2 unten 1
+
+// 4 : oben 2 unten 2
+
+// 5 : oben 2 unten 3
+
+
+
+// 6 : oben 3 unten 1
+
+// 7 : oben 3 unten 2
+
+// 8 : oben 3 unten 3
+
+//später methode nach jedem schritt überprüfen ob bestimmter fall
+
+float opacity = (float) 0.1;
+g2.setComposite(AlphaComposite.getInstance(AlphaComposite.SRC_OVER, opacity));

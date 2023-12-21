@@ -40,9 +40,10 @@ public class UI {
 
         this.gp = gp;
         arial = new Font("Arial",Font.PLAIN,gp.scale*10);
+        
 
         try {
-            InputStream is = getClass().getResourceAsStream("/font/x12y16pxMaruMonica.ttf");
+            InputStream is = getClass().getResourceAsStream("/res/font/x12y16pxMaruMonica.ttf");
             MaruMonica = Font.createFont(Font.TRUETYPE_FONT, is);
         } catch (FontFormatException e) {
             throw new RuntimeException(e);
@@ -2227,7 +2228,7 @@ public class UI {
         BufferedImage image = null;
 
         try {
-            image = ImageIO.read(getClass().getResourceAsStream("/karten/"+imageName+ ".png"));
+            image = ImageIO.read(getClass().getResourceAsStream("/res/karten/"+imageName+ ".png"));
 
         } catch (IOException e) {
             e.printStackTrace();

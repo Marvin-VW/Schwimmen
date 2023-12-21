@@ -15,15 +15,15 @@ public class Sound {
 
     public Sound() {
 
-        soundURL[0] = getClass().getResource("/sound/musik1.wav"); //musik
-        soundURL[1] = getClass().getResource("/sound/cursor.wav"); // cursor
-        soundURL[2] = getClass().getResource("/sound/kartenlegen.wav"); //kartensound
-        soundURL[3] = getClass().getResource("/sound/button.wav"); //button
-        soundURL[4] = getClass().getResource("/sound/win.wav"); //win
-        soundURL[5] = getClass().getResource("/sound/loose.wav"); //loose
-        soundURL[6] = getClass().getResource("/sound/options.wav"); //options
-        soundURL[7] = getClass().getResource("/sound/musik1.wav"); //wii musik
-        soundURL[8] = getClass().getResource("/sound/klopfen.wav"); //klopfen
+        soundURL[0] = getClass().getResource("/res/sound/musik1.wav"); //musik
+        soundURL[1] = getClass().getResource("/res/sound/cursor.wav"); // cursor
+        soundURL[2] = getClass().getResource("/res/sound/kartenlegen.wav"); //kartensound
+        soundURL[3] = getClass().getResource("/res/sound/button.wav"); //button
+        soundURL[4] = getClass().getResource("/res/sound/win.wav"); //win
+        soundURL[5] = getClass().getResource("/res/sound/loose.wav"); //loose
+        soundURL[6] = getClass().getResource("/res/sound/options.wav"); //options
+        soundURL[7] = getClass().getResource("/res/sound/musik1.wav"); //wii musik
+        soundURL[8] = getClass().getResource("/res/sound/klopfen.wav"); //klopfen
 
     }
 

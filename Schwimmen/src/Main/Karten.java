@@ -863,7 +863,7 @@ public class Karten {
         BufferedImage image = null;
 
         try {
-            image = ImageIO.read(getClass().getResourceAsStream("/karten/" + imageName + ".png"));
+            image = ImageIO.read(getClass().getResourceAsStream("/res/karten/" + imageName + ".png"));
 
         } catch (IOException e) {
             e.printStackTrace();
